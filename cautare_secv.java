@@ -17,7 +17,7 @@ public class cautare_secv {
         boolean gasit=false;
         for (i = 0; i < n; i++) {
             if (a[i] == x) {
-                System.out.print(x + " a fost gasit pe pozitia " + (i+1));
+                System.out.print(x + " a fost gasit pe pozitia " + (i+1) +"\n");
                 gasit=true;
             }
         }

@@ -14,7 +14,7 @@ public class insertion {
             array[j + 1] = key;
         }
     }
-
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n;
