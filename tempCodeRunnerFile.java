@@ -1,0 +1,1 @@
+hm.put(15, "A computer");
