@@ -14,15 +14,15 @@ public class cautare_secv {
 
         System.out.print("cautat = ");
         int x = scan.nextInt();
-        boolean gasit=false;
+        boolean gasit = false;
         for (i = 0; i < n; i++) {
             if (a[i] == x) {
-                System.out.print(x + " a fost gasit pe pozitia " + (i+1) +"\n");
-                gasit=true;
+                System.out.print(x + " a fost gasit pe pozitia " + (i + 1) + "\n");
+                gasit = true;
             }
         }
-        if(!gasit){
-            System.out.print(x+ " nu a fost gasit in vector");
+        if (!gasit) {
+            System.out.print(x + " nu a fost gasit in vector");
         }
     }
 }
